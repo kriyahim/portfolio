@@ -846,9 +846,8 @@ ul {
         padding: 60px 0;
     }
     
-    .section-title {
-        font-size: 2rem;
-    }
+.section-title {
+    font-size: 2rem;
 }
 
 @media (max-width: 576px) {
@@ -856,30 +855,29 @@ ul {
         flex-direction: column;
         gap: 15px;
     }
-    
+
     .btn {
         width: 100%;
         text-align: center;
     }
-    
-    .image-placeholder {
+
+    .profile-photo-container {
         width: 250px;
         height: 250px;
-        font-size: 6rem;
     }
-    
+
     .about-highlights {
         grid-template-columns: 1fr;
     }
-    
+
     .timeline::before {
         left: 20px;
     }
-    
+
     .timeline-item {
         padding-left: 60px;
     }
-    
+
     .timeline-date {
         width: 120px;
         font-size: 0.9rem;
